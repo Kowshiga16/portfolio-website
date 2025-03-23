@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+        font-family: "Young Serif", serif;
+        
+      }
+      .container{
+        padding: 50px;
+      }
+      .section-one {
+        background-color: black;
+        color: chartreuse;
+        padding: 25px;
+      }
+      .section-one__contact{
+        background-color: cyan;
+        color: black;
+        text-decoration: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: inline-block;
+        margin-top: 10px;
+      }
+      .section-one__name{
+        font-size: 35px;
+      }
+      .section-one__role{
+        color: white;
+        font-size:20px ;
+      }
+      .section-two,.section-three,.section-four,.section-five{
+        margin-top: 15px;
+      }
+      .section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+        margin-top: 10px;
+      }
+      .section-five{
+        background-color: black;
+        color: azure;
+      }
+      .section-five__title a{
+        color: orangered;
+      }
+      .section-three li,.section-four li {
+        list-style:none;
+      }
+      
+      .section-three{
+        background-color: #6462fd;
+        color:black;
+        padding: 20px;
+        display:inline-block;
+        height: 150px;
+        border-radius: 10px;
+        vertical-align: top;
+       
+      }
+      .section-four{
+        background-color: #fe7517;
+        color: black;
+        padding: 20px;
+        display: inline-block;
+        height: 150px;
+        border-radius: 10px;
+        vertical-align: top;
+      }
+      .contact{
+        margin-top: 10px;
+      }
+      .contact__input,.contact__text,.contact__submit{
+        margin-top: 10px;
+      }
+      .contact__input{
+        padding: 10px;
+        border: none;
+        border-bottom: solid black 1 ;
+      }
+
+      .contact__text{
+        padding: 10px;
+        border: none;
+        border-bottom: solid black 1px ;
+      }
+      .contact__submit{
+        padding-top: 10px;
+        padding-bottom: 10px; 
+        padding-right: 5px;
+        padding-left: 5px;
+        border: none;
+        background-color: bisque;
+        border-bottom: solid black 1px ;
+      }
